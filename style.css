@@ -1,0 +1,37 @@
+body{
+    background:green;
+}
+
+
+.card{
+    height: 300px;
+    width: 200px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.number{
+    display: block;
+    margin: 0 auto;
+    font-size: 4em;
+    display: inline-flexbox;
+    font-family:DejaVu Sans Mono, monospace;
+}
+
+.headerS{
+    font-size: 4em;
+    padding-top: 40px;
+    padding-left: 18px;
+    margin-top: -60px;
+    display: inline-flexbox;
+}
+.footerS{
+    transform: rotate(180deg);
+    float:right; 
+    font-size: 4em;
+    display: inline-flexbox;
+    margin-top: 60px;
+    padding-left: 18px;
+}
